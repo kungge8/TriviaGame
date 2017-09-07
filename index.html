@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Trivia Game</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="https://code.jquery.com/jquery.js"></script>
+		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	</head>
+	<body>
+		<div class = "container">
+			<div class = "header row">
+				<img src="assets/images/dota2icon.png" class="img-responsive" id="hIcon">
+			</div>
+			<div class = "body row">
+				<div class = "col-xs-12 text-center"><h2 class = "tleft">Time left!</h2></div>
+				<div class = "col-xs-12 text-center" id = "timerDisplay"></div>
+			</div>
+			<div class = "row">
+				<div class = "col-xs-12 text-center" id="qDisplay">
+				</div>
+			</div>
+			<div class = "input-group aCenter">
+				<div class = "row">
+					<input class = "qButton" id = "A1" type = "radio" name = "qAns" value="1">
+						<label for = "A1" class = "iLabel"></label>
+					<input class = "qButton" id = "A2" type = "radio" name = "qAns" value="2">
+						<label for = "A2" class = "iLabel"></label>
+				</div>
+				<div class = "row">
+					<input class = "qButton" id = "A3" type = "radio" name = "qAns" value="3">
+						<label for = "A3" class = "iLabel"></label>
+					<input class = "qButton" id = "A4" type = "radio" name = "qAns" value="4">
+						<label for = "A4" class = "iLabel"></label>
+				</div>			
+				<button id = "aSubmit" class = "btn btn-default aCenter">SUBMIT</button>				
+			</div>
+			<footer class = "footer pfoot">
+				<p class = "footertext text-center">&copy; Copyright Kevin Kung 2017</p>
+			</footer>
+		</div>
+		<script type="text/javascript" src="assets/javascript/app.js"></script>
+	</body>
+</html>

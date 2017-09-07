@@ -1,0 +1,49 @@
+body {
+	background-color: #fef5dc;
+}
+
+.header {
+	height: 150px;
+	background-color: #333333;
+	border: 3px solid black;
+	border-radius: 10px;
+}
+
+.pfoot {
+	position: fixed;
+	bottom: 0;
+	height: 25px;
+	width: 90%;
+	background-color: #333333;
+	border: 2px solid black;
+	border-radius: 10px;
+}
+
+#hIcon{
+	height: 100%;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+.qbutton {
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.text-center{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 25px;
+}
+
+.iLabel {
+	font-size: 20px;
+	margin: 0 20px;
+}	
+
+.tleft{
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.aCenter {
+	margin: 0 auto;
+	font-family: 'Roboto Condensed', sans-serif;
+}
